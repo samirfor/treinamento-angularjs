@@ -1,1 +1,1 @@
-python -m SimpleHTTPServer 9001
+php -S 0.0.0.0:8999
