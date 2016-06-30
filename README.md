@@ -3,5 +3,5 @@
 Instruções:
 
 * Clona
-* Roda o servidorzinho (`./run.sh`)
+* Roda o servidor (`./run.sh`)
 * Abre http://localhost:8999

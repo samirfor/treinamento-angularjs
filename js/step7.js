@@ -6,7 +6,6 @@ function MyCtrl($scope, $timeout){
 
 	var DOTS = '....................................................................................................';
 	var PIPES = '||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||';
-    var isRunning = true;
 
 	$scope.progress_bar = function (){
 		return '[' + PIPES.substring(0, $scope.progress) + DOTS.substring(0, 100 - $scope.progress) + ']'
